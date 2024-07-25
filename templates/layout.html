@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <title>Wyatt Walker</title>
+</head>
+<body>
+    <div class="centre-div">
+        <a href="{{ url_for('home') }}">
+            <h1 class="title">Wyatt Walker</h1>
+        </a>
+        <h1 class="centre-text">
+            PROJECTS
+        </h1>
+        <div class="titlebar-text">
+            <div class="heading centre-text">
+                <a href="{{ url_for('harmony') }}">
+                    <p>Harmony</p>
+                </a>
+            </div>
+            <div class="heading centre-text">
+                <a href="{{ url_for('lenticel') }}">
+                    <p>Lenticel</p>
+                </a>
+            </div>
+            <div class="heading centre-text">
+                <a href="{{ url_for('bulletin') }}">
+                    <p>Bulletin</p>
+                </a>
+            </div>
+            <div class="heading centre-text">
+                <a href="{{ url_for('set') }}">
+                    <p>SET</p>
+                </a>
+            </div>
+        </div>
+    </div>
+    {% block content %} 
+    {% endblock %} 
+</body>
+</html>
