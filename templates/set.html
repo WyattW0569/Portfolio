@@ -6,7 +6,44 @@
         ABOUT SET
     </h1>
     <a href="https://github.com/WyattW0569/SET-TERM-PROJECT">
-        <p class ="heading centre-text">Github</p>
+        <p class ="heading centre-text proj-link">Github</p>
     </a>
+</div>
+<div class="project-content">
+    <div class="border-r">
+        <p class="centre-text bold proj-heading">Project Description</p>
+    </div>
+    <div>
+        <p class="centre-text bold proj-heading">Languages and Frameworks Used</p>
+        <div style="margin-left: 5%;">
+            <p class="bold">Languages/Markup:</p>
+            <ul>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+            <p class="bold">Frameworks/API/Tools:</p>
+            <ul>
+                <li>Micro Python</li>
+                <li>Raspberry Pi Pico-W</li>
+            </ul>
+            <p class="bold">Timeline:</p>
+            <p>Jan 2024 - April 2024</p>
+        </div>
+    </div>
+</div>
+<div>
+    <h1 class="centre-text">
+        DEMO SCREENSHOTS
+    </h1>
+    <div class="demo-ss">
+        <div class="centre-div">
+            <img style="box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
+            margin-bottom: 2%;" src="{{ url_for('static', filename='images/set/ss-1.png') }}"alt="" width="700" height="394">
+        </div>
+        <div class="centre-div">
+            <img style="box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);" src="{{ url_for('static', filename='images/set/ss-2.png') }}"alt="" width="700" height="394">
+        </div>
+    </div>
 </div>
 {%endblock%}

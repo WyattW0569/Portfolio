@@ -29,8 +29,81 @@ a {
 .titlebar-text{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.titlebar-item{
+    border-right: 2px solid black;
 }
 
 .heading:hover{
     transform: scale(1.1);
+}
+
+.project-content{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.border-l{
+    border-left: 2px solid black;
+}
+.border-r{
+    border-right: 2px solid black;
+}
+.border-t{
+    border-top: 2px solid black;
+}
+.border-b{
+    border-bottom: 2px solid black;
+}
+
+.bold{
+    font-weight: bold;
+}
+
+.proj-link{
+    font-style: italic;
+    font-size:25px;
+}
+
+.proj-heading{
+    font-size: 25px;
+}
+
+.about-me{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-round{
+    border-radius: 25%;
+}
+
+#j-container #content{
+    display: none;
+}
+#j-container:target #content{
+    display: block;
+}
+
+.j-text:hover{
+    transform: scale(1.1);
+}
+
+.demo-ss{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
