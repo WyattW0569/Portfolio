@@ -107,3 +107,19 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
 }
+
+.harmony-text:hover{
+    color: #b55597;
+}
+
+.lenticel-text:hover{
+    color: green;
+}
+
+.bulletin-text:hover{
+    color: yellow;
+}
+
+.set-text:hover{
+    color: blue;
+}
